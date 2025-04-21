@@ -23,7 +23,7 @@ app.use(express.json())
 
 
 // routes imports
-import auth from "../src/routes/auth.routes"
+import auth from "./routes/auth.routes"
 import GlobalErrorHandler from "./utils/GlobalErrorHandler";
 
 
