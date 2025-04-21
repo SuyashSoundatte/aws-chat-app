@@ -1,0 +1,38 @@
+{
+  "name": "chat-app-server",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc -b && tsx watch src/index.ts",
+    "start": "tsc -b && node dist/index.js",
+    "js": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "packageManager": "pnpm@9.15.4+sha512.b2dc20e2fc72b3e18848459b37359a32064663e5627a51e4c74b2c29dd8e8e0491483c3abb40789cfd578bf362fb6ba8261b05f0387d76792ed6e23ea3b1b6a0",
+  "dependencies": {
+    "@types/chance": "^1.1.6",
+    "@types/jsonwebtoken": "^9.0.8",
+    "@types/random-name": "^0.1.2",
+    "argon2": "^0.41.1",
+    "chance": "^1.1.12",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.5",
+    "random-name": "^0.1.2",
+    "unique-names-generator": "^4.7.1",
+    "uuid": "^11.0.5",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "nodemon": "^3.1.9",
+    "tsx": "^4.19.2"
+  }
+}
